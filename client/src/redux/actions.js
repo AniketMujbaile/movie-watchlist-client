@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://movie-watchlist-z7zx.onrender.com/api/movies';
+const API_URL = 'https://movie-watchlist-client.onrender.com/api/movies';
 //const API_URL = 'http://localhost:5000/api/movies';
 
 export const ADD_MOVIE = 'ADD_MOVIE';
