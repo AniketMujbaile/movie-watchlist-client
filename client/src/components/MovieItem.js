@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { deleteMovie, toggleWatched, rateMovie, reviewMovie } from '../redux/actions';
@@ -12,7 +12,7 @@ const MovieItem = ({ movie }) => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-gray-800 to-gray-700 p-4 rounded-lg shadow-xl flex flex-col items-start text-white">
+    <div className="bg-gradient-to-br from-gray-800 to-gray-700 p-4 rounded-lg shadow-xl flex flex-col items-start text-white transform transition duration-300 hover:scale-105">
       <div className="flex justify-between items-center w-full mb-2">
         <Link to={`/details/${movie._id}`} className="flex-grow">
           <h3 className="text-xl font-bold text-yellow-400">{movie.title}</h3>
