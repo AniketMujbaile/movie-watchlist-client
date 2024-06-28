@@ -35,7 +35,7 @@ const HomePage = () => {
             <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-yellow-400"></div>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {movies.map(movie => (
               <MovieItem key={movie.id} movie={movie} />
             ))}
